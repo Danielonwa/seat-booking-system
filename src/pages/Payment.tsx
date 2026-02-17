@@ -13,7 +13,7 @@ export default function Payment() {
   const selectedSeat = useStore((s) => s.selectedSeat);
   const confirmBooking = useStore((s) => s.confirmBooking);
 
-  const eventName = "EventBookingPro";
+  const eventName = "My Highs & I";
   const ticketPriceNgn = 2000;
 
   const referenceRef = useRef(`EBP-${Date.now()}`);
