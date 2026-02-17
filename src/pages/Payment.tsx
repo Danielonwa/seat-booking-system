@@ -3,14 +3,6 @@ import { Link, useNavigate } from "react-router-dom";
 import { usePaystackPayment } from "react-paystack";
 import { useStore } from "../store/useStore";
 
-interface PaystackResponse {
-  reference: string;
-  trans: string;
-  status: string;
-  message: string;
-  transaction: string;
-}
-
 export default function Payment() {
   const navigate = useNavigate();
 
@@ -19,7 +11,6 @@ export default function Payment() {
   const email = useStore((s) => s.email);
   const profilePicture = useStore((s) => s.profilePicture);
   const selectedSeat = useStore((s) => s.selectedSeat);
-  const paymentReference = useStore((s) => s.paymentReference);
   const confirmBooking = useStore((s) => s.confirmBooking);
 
   const eventName = "EventBookingPro";
