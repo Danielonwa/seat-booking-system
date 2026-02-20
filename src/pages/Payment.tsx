@@ -14,7 +14,7 @@ export default function Payment() {
   const confirmBooking = useStore((s) => s.confirmBooking);
 
   const eventName = "My Highs & I";
-  const ticketPriceNgn = 2000;
+  const ticketPriceNgn = 1000;
 
   const referenceRef = useRef(`EBP-${Date.now()}`);
 
