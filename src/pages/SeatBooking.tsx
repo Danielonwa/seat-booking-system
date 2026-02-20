@@ -225,7 +225,7 @@ export default function SeatBooking() {
                 <div className="flex items-center gap-6">
                   <div className="text-right">
                     <p className="text-xs text-slate-500 font-medium">Price</p>
-                    <p className="text-xl font-bold">₦2,000.00</p>
+                    <p className="text-xl font-bold">₦1,000.00</p>
                   </div>
                   <button
                     className="bg-primary hover:bg-primary/90 text-white px-8 py-3 rounded-lg font-semibold shadow-lg shadow-primary/20 transition-all flex items-center gap-2"
